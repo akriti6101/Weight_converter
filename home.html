@@ -1,0 +1,61 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+        <div class="outer">
+<center><h4>WEIGHT-CONVERTER</h4></center>
+
+
+            <h3>Enter weight:<input type="text" id="input" class="input"></h3>
+            <br/>
+            <h4> 
+                <div class="div1">Weight unit:<select id="w">
+                    <option value="None">None</option>
+<option value="kg">Kilo-gram</option>
+<option value="gm">Gram</option>
+<option value="pound">Pounds</option>
+
+
+
+            </select>
+                </div>
+
+
+             <div class="div2">Convert to weight unit :<select id="c"> 
+                <option value="None">None</option>
+                <option value="kg">Kilo-gram</option>
+                <option value="gm">Gram</option>
+                <option value="pound">Pounds</option>
+                
+                
+                
+             </select>
+            </div>
+
+            <div class="div3">
+                Result :<input  type="text" id="res" >
+            </div>
+
+<div class="div4">
+    <button type="button" id="btn" class="btn"onclick="convt()">Convert</button>
+    <button type="button" id="ref" class="ref"onclick="refresh()">Refresh</button>
+</div>
+
+
+
+
+        </h4>
+
+
+
+            
+        </div>
+
+
+
+        <script type="text/javascript" src="convt.js"></script>
+    </body>
+</html>

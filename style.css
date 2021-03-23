@@ -1,0 +1,54 @@
+.outer
+{
+    position:absolute;
+    top:110px;
+    left:300px;
+    width:700px;
+    height:400px;
+    background-image:url("weight.jpg");
+    background-size:cover;
+
+}
+h3{
+    
+    position:absolute;
+    top:80px;
+    left:170px;
+}
+.div1
+{
+    
+    position:absolute;
+    top:160px;
+    left:70px;
+    width:300px;
+    height:45px;
+}
+h4{
+    background-color: khaki;
+}
+.div2
+{
+    position:absolute;
+    top:160px;
+    left:340px;
+    margin-left: 60px;
+    height:45px;
+    width:300px;
+}
+.div3
+{
+    position:absolute;
+    top:280px;
+    left:230px;
+}
+.div4
+{
+    position:absolute;
+    top:330px;
+    left:290px;
+    
+}
+button{
+    background-color: dimgrey;
+}
